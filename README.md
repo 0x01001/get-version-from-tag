@@ -19,3 +19,7 @@ To be able to use this action, you must retreive all the history of the reposito
 - name: Update version in YAML
   run: sed -i 's/99.99.99+99/${{ steps.tag.outputs.version }}+${{ github.run_number }}/g' pubspec.yaml
 ```
+
+## Outputs
+
+- `version`: The version number of tag
