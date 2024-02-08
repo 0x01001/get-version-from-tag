@@ -1,0 +1,9 @@
+name: "Get tag from project"
+description: "Automation flutter projects for versions"
+author: "0x01001"
+runs:
+  using: "node20"
+  main: "dist/index.js"
+branding:
+  icon: "tag"
+  color: "green"
